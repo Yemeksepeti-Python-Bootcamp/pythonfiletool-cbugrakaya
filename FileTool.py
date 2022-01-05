@@ -126,7 +126,6 @@ class FileTool():
             else:
                 print(df_file[df_file[column_name] == value])
         else:
-            # TODO txt ekle
             raise Exception("This data type is not a valid data type")
 
       
@@ -219,8 +218,7 @@ class FileTool():
                 else:
                     raise  Exception("This value is not valid.")
         else:
-            # TODO txt ekle
-            pass
+            raise  Exception("Labels are not corret !")
     
     def file_to_file(self,other_file_path = ""):
         """
